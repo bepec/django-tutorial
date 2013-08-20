@@ -1,0 +1,4 @@
+#!/bin/bash
+workon django-sandbox
+python manage.py runserver 192.168.58.2:8080
+
