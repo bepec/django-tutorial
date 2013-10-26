@@ -1,0 +1,10 @@
+{% if services %}
+<p>List of known taxi's:</p>
+<ul>
+{% for service in services %}
+<li><a href="{% url 'taxi:detail' service.id %}">{{ service.title }}</a></li>
+{% endfor %}
+</ul>
+{% else %}
+<p>No taxi services for you, sorry</p>
+{% endif %}
