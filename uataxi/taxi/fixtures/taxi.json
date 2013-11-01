@@ -1,0 +1,88 @@
+[
+
+    {
+        "model": "taxi.phoneoperator",
+        "pk": 1,
+        "fields": {
+            "title": "Landline"
+        }
+    },
+    {
+        "model": "taxi.phoneoperator",
+        "pk": 2,
+        "fields": {
+            "title": "MTC"
+        }
+    },
+    {
+        "model": "taxi.phoneoperator",
+        "pk": 3,
+        "fields": {
+            "title": "life:)"
+        }
+    },
+    {
+        "model": "taxi.phoneoperator",
+        "pk": 4,
+        "fields": {
+            "title": "Kyivstar"
+        }
+    },
+
+    {
+        "model": "taxi.taxiservice",
+        "pk": 1,
+        "fields": {
+            "title": "1525"
+        }
+    },
+    {
+        "model": "taxi.taxiservice",
+        "pk": 2,
+        "fields": {
+            "title": "1569"
+        }
+    },
+   
+    {
+        "model": "taxi.phonenumber",
+        "pk": 1,
+        "fields": {
+            "number": "0486824075",
+            "service": 1,
+            "operator": 4,
+            "callback": "False"
+        }
+    },
+    {
+        "model": "taxi.phonenumber",
+        "pk": 2,
+        "fields": {
+            "number": "0502355075",
+            "service": 1,
+            "operator": 2,
+            "callback": "False"
+        }
+    },
+    {
+        "model": "taxi.phonenumber",
+        "pk": 3,
+        "fields": {
+            "number": "0937483396",
+            "service": 1,
+            "operator": 3,
+            "callback": "False"
+        }
+    },
+    {
+        "model": "taxi.phonenumber",
+        "pk": 4,
+        "fields": {
+            "number": "0965807555",
+            "service": 1,
+            "operator": 4,
+            "callback": "False"
+        }
+    }
+
+]
